@@ -1,0 +1,119 @@
+body {
+    background-color: #00000D;
+    
+}
+
+#firstArrayImg {
+    width: 30vw;
+    height: 30vh;
+}
+
+.scoreBox {
+    height: 4em;
+    width: 20em;      
+}
+
+#score {
+    margin: 0;
+    text-align: center;
+    width: 5em;
+}
+
+#delButton {
+    font-size: xx-large;
+}
+
+.imgContainer {
+    width: 100vw;
+    height: 200px;
+}
+
+.imgContainer>div,
+.imgSelection>button {
+    width: 200px;
+    height: 150px;
+    margin: 30px 5px;
+}
+
+.imgSelection>button {
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 3px  black;
+}
+
+.imgSelection>button:hover {
+    box-shadow: none;
+}
+
+.imgSelection1{
+    background-image: url('images/1.jpg');
+}
+
+.imgSelection2 {
+    background-image: url('images/2.jpg');
+}
+
+.imgSelection3 {
+    background-image: url('images/3.jpg');
+}
+
+.imgSelection4 {
+    background-image: url('images/4.jpg');
+}
+
+.imgSelection5 {
+    background-image: url('images/5.jpg');
+}
+
+#block4,#block3,#block2,#block1,#block0 {
+    width: 200px;
+    height: 150px;
+}
+
+#compareButton {
+    margin: 30px 45%;
+}
+
+#modal {
+    height: 250px;
+    margin-top: 130px;
+    padding-top: 40px;
+}
+
+#modalText {
+    text-align: center;
+    margin-bottom: 90px;
+    font-weight: bold;
+}
+
+#redBluredBox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 35%;
+    height: 35%;
+    background-color: red;
+    filter: blur(250px);
+    z-index: -2;
+}
+
+#blueBluredBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 35%;
+    background-color: blue;
+    filter: blur(250px);
+    z-index: -2;
+}
+
+#blackCoverBox {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000D;
+    opacity: 0.5;
+    z-index: -1;
+}
